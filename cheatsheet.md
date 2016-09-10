@@ -1,4 +1,4 @@
 - `head -n <lines-number> <file-name>` - Read 1st <lines-number> of lines from file <file-name>
-- `grep -A <above-lines> -B <below-lines> <idle> <haystack-file>` - Find some line with <idle> text in file <haystack-file> with context of <above-lines> and <below-lines>
+- `grep -A <above-lines> -B <below-lines> --color=yes <idle> <haystack-file>` - Find some line with <idle> text in file <haystack-file> with context of <above-lines> and <below-lines>
 - `head <file> | grep <idle>` - find 10 1st lines in <file> and find <idle> there. `|` character is `Right Alt+W` on Windows :)
 - `http <url> -d -o <output-file> [--auth=<login>:<password>]` - Download <url> (the feed mostly) and save it into <output-file>. Optionally with password.
